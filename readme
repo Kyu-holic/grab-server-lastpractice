@@ -127,9 +127,10 @@
 33. nodejs에서 파일처리를 할 때 많이 사용하는 라이브러리로 multer 사용
     용량이 큰 이미지 비디오 같은 파일들을 다룰 때는 multipart/form-data를 사용한다.
 
-34. conster multer = require("multer")를 사용하여 불러오기
+34. npm install multer로 설치 
+    conster multer = require("multer")를 사용하여 불러오기
 
-35. upload할 파일의 경로를 정해주는데 cnost uplaod = multer({dest: 'uploads/'})
+35. upload할 파일의 경로를 정해주는데 const uplaod = multer({dest: 'uploads/'})
     이런식으로 지정하면 uploads라는 파일이 생성되는 것을 확인할 수 있다.
 
 36. /image post 요청을 하나 더 만들어 준다. 이미지를 하나만 보낼 계획이므로
